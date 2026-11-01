@@ -1,0 +1,543 @@
+{
+  "app": {
+    "name": "Atlas",
+    "tagline": "Plan journeys with elegance"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "favorites": "Favorites",
+    "trips": "My trips",
+    "label": "Main navigation"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "image": {
+    "unavailable": "Image unavailable"
+  },
+  "hero": {
+    "eyebrow": "Travel planner",
+    "title": "Discover the world, one destination at a time.",
+    "subtitle": "Atlas helps you explore destinations, save favorites and organize your next trips, calmly and clearly.",
+    "searchLabel": "Search destinations",
+    "searchPlaceholder": "Where do you want to go?",
+    "searchButton": "Search",
+    "popular": "Popular"
+  },
+  "featured": {
+    "eyebrow": "Featured destinations",
+    "title": "A place to start imagining your next trip",
+    "subtitle": "An initial selection of cities and landscapes around the world.",
+    "viewAll": "View all destinations",
+    "discover": "Discover"
+  },
+  "categories": {
+    "eyebrow": "Categories",
+    "title": "Choose your kind of trip",
+    "subtitle": "Start with whatever fits your mood best.",
+    "count_one": "{{count}} destination",
+    "count_other": "{{count}} destinations",
+    "nature": {
+      "name": "Nature",
+      "description": "Landscapes, trails and places to slow down."
+    },
+    "culture": {
+      "name": "Culture",
+      "description": "Historic cities, museums and living traditions."
+    },
+    "beaches": {
+      "name": "Beaches",
+      "description": "Sea, sand and unhurried days."
+    },
+    "gastronomy": {
+      "name": "Gastronomy",
+      "description": "Local flavors, markets and memorable tables."
+    }
+  },
+  "cta": {
+    "eyebrow": "Explore",
+    "title": "Your next destination may be one search away.",
+    "text": "Browse Atlas destinations and find inspiration for your next trip.",
+    "button": "Explore destinations"
+  },
+  "footer": {
+    "about": "Atlas is a travel planner built as a Front-End portfolio project. This version runs without a backend.",
+    "navigation": "Navigation",
+    "project": "Project",
+    "projectText": "Built with React, TypeScript, Vite and Tailwind CSS.",
+    "photos": "Photo credits (Wikimedia Commons)",
+    "photoHero": "Cover",
+    "rights": "© {{year}} Atlas. Portfolio project."
+  },
+  "destinations": {
+    "kyoto": {
+      "name": "Kyoto",
+      "country": "Japan",
+      "description": "Shrines, temples and gardens in a city that preserves centuries of Japanese tradition.",
+      "imageAlt": "Path of red torii gates at the Fushimi Inari shrine in Kyoto",
+      "longDescription": "The imperial capital of Japan for over a thousand years, Kyoto is home to many temples and shrines, traditional gardens and historic districts such as Gion. The path of torii gates at Fushimi Inari shrine is one of the city's best-known scenes."
+    },
+    "paris": {
+      "name": "Paris",
+      "country": "France",
+      "description": "Museums, cafés and elegant avenues along the Seine, from art to fashion and food.",
+      "imageAlt": "The Eiffel Tower in Paris",
+      "longDescription": "The capital of France, Paris brings together museums such as the Louvre, the Eiffel Tower, the Seine and neighborhoods full of cafés and bookshops. It is a classic destination for lovers of art, architecture and good food."
+    },
+    "lisbon": {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "description": "Hills, viewpoints and vintage trams above the Tagus, with a lively food scene.",
+      "imageAlt": "View from the Portas do Sol viewpoint in Lisbon",
+      "longDescription": "The capital of Portugal, Lisbon spreads across hills beside the Tagus river. Districts such as Alfama and Bairro Alto, its viewpoints and yellow trams give the city a rhythm of its own, along with traditional Portuguese cooking."
+    },
+    "bali": {
+      "name": "Bali",
+      "country": "Indonesia",
+      "description": "Terraced rice fields, temples and beaches on a tropical island of lush nature.",
+      "imageAlt": "Terraced rice fields in Bali",
+      "longDescription": "An island of Indonesia known for its rice terraces, Hindu temples and beaches. The interior around Ubud is a center for art and crafts, while the coast offers beaches for different travel styles."
+    },
+    "newyork": {
+      "name": "New York",
+      "country": "United States",
+      "description": "Skyscrapers, parks, museums and a food scene that gathers the world in one city.",
+      "imageAlt": "Midtown Manhattan skyline at night in New York",
+      "longDescription": "The most populous city in the United States brings together Manhattan, Central Park, museums such as the Metropolitan and a huge variety of cuisines. Every borough has its own personality, from Brooklyn to Queens."
+    },
+    "rome": {
+      "longDescription": "The capital of Italy, Rome preserves ancient ruins such as the Colosseum and the Roman Forum, alongside baroque squares and the nearby Vatican. Roman cooking, simple and flavorful, is part of the experience.",
+      "name": "Rome",
+      "country": "Italy",
+      "description": "Ancient ruins, baroque squares and a cuisine that makes the table part of the story.",
+      "imageAlt": "The Colosseum in Rome"
+    },
+    "capetown": {
+      "longDescription": "A South African city between Table Mountain and the ocean, with beaches, nearby vineyards and the Cape Peninsula. It combines striking nature, history and a diverse food scene.",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "description": "Between Table Mountain and the ocean, a city of striking landscapes and good food.",
+      "imageAlt": "Table Mountain seen from Bloubergstrand, in Cape Town"
+    },
+    "rio": {
+      "longDescription": "A Brazilian city between mountains and sea, with beaches such as Copacabana and Ipanema, Sugarloaf Mountain and Christ the Redeemer on Corcovado. Nature and city life meet within a few kilometers.",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "description": "Mountains, beaches and Carioca energy in one of the world's most iconic urban landscapes.",
+      "imageAlt": "Sugarloaf Mountain seen from Christ the Redeemer, in Rio de Janeiro"
+    },
+    "vancouver": {
+      "longDescription": "A Canadian city between the Pacific Ocean and the mountains, with Stanley Park, a waterfront and access to trails and skiing nearby. It blends urban life and nature.",
+      "name": "Vancouver",
+      "country": "Canada",
+      "description": "Ocean, mountains and city parks within minutes of each other.",
+      "imageAlt": "View of Vancouver, Canada"
+    },
+    "istanbul": {
+      "longDescription": "A city that spans two continents, Europe and Asia, divided by the Bosphorus strait. Monuments such as Hagia Sophia, bazaars and Turkish cuisine reflect centuries of history.",
+      "name": "Istanbul",
+      "country": "Türkiye",
+      "description": "A city between two continents, with ancient monuments, bazaars and Turkish flavors.",
+      "imageAlt": "Hagia Sophia in Istanbul"
+    },
+    "seoul": {
+      "name": "Seoul",
+      "country": "South Korea",
+      "description": "Joseon-dynasty palaces, cafés, design and a vibrant food scene between mountains and the Han River.",
+      "longDescription": "South Korea's capital, where Joseon-dynasty palaces such as Gyeongbokgung sit alongside design districts, cafés and street markets. The Han River and the surrounding mountains put hiking trails minutes from the center, and the table ranges from Korean barbecue to tteokbokki.",
+      "imageAlt": "Gyeongbokgung Palace in Seoul"
+    },
+    "bangkok": {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "description": "Golden temples, canals and street food celebrated worldwide, in a capital that never slows down.",
+      "longDescription": "Thailand's capital on the Chao Phraya River, where temples such as Wat Arun and Wat Pho share the skyline with skyscrapers. Boats cross the canals, markets run from dawn until late at night, and street food is central to the experience.",
+      "imageAlt": "Wat Arun, the Temple of Dawn, in Bangkok"
+    },
+    "singapore": {
+      "name": "Singapore",
+      "country": "Singapore",
+      "description": "A city-state of skyscrapers, futuristic gardens and food centers that bring many cultures to one table.",
+      "longDescription": "A city-state at the southern tip of the Malay Peninsula, where Marina Bay, Gardens by the Bay and neighborhoods such as Chinatown and Little India sit within a few kilometers of each other. Its hawker centers, recognized by UNESCO as intangible cultural heritage, serve Chinese, Malay and Indian dishes at modest prices.",
+      "imageAlt": "Marina Bay and the Singapore skyline at dusk"
+    },
+    "mumbai": {
+      "name": "Mumbai",
+      "country": "India",
+      "description": "Colonial architecture, Bollywood cinema and the Arabian Sea in a city of contrasts.",
+      "longDescription": "One of India's largest cities, on the Arabian Sea, where the Gateway of India and Chhatrapati Shivaji Terminus, a Victorian Gothic UNESCO World Heritage site, tell its colonial story. The Marine Drive seafront, bustling markets and street food such as vada pav complete the picture of a city in constant motion.",
+      "imageAlt": "The Gateway of India in Mumbai"
+    },
+    "hanoi": {
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "description": "A lake, Old Quarter alleys and cafés in a capital that blends tradition, French heritage and bold flavors.",
+      "longDescription": "Vietnam's capital, organized around Hoan Kiem Lake and the Old Quarter, whose narrow streets still carry the names of traditional trades. French-influenced avenues and buildings sit beside temples, and the table offers phở, bún chả and egg coffee.",
+      "imageAlt": "Hoan Kiem Lake in Hanoi"
+    },
+    "osaka": {
+      "name": "Osaka",
+      "country": "Japan",
+      "description": "A castle, the Dotonbori district and a reputation as Japan's food capital.",
+      "longDescription": "One of Japan's largest cities, long known as \"the nation's kitchen\". Osaka Castle recalls its past power, while neon-lit Dotonbori is packed with takoyaki and okonomiyaki stalls. Kyoto and Nara are under an hour away by train.",
+      "imageAlt": "Osaka Castle"
+    },
+    "marrakech": {
+      "name": "Marrakech",
+      "country": "Morocco",
+      "description": "An ochre-walled medina, fragrant souks and Jemaa el-Fna square, in the shadow of the Atlas.",
+      "longDescription": "An imperial city at the foot of the Atlas Mountains, with a walled, UNESCO-listed medina of alleys, souks and hidden gardens. At dusk Jemaa el-Fna square fills with musicians, storytellers and food stalls, while the minaret of the Koutoubia dominates the skyline.",
+      "imageAlt": "Jemaa el-Fna square in Marrakech"
+    },
+    "cairo": {
+      "name": "Cairo",
+      "country": "Egypt",
+      "description": "The Giza pyramids, pharaonic museums and a maze of bazaars on the Nile.",
+      "longDescription": "Egypt's capital on the Nile, a few kilometers from the Pyramids of Giza, the only one of the Seven Wonders of the Ancient World still standing. Islamic Cairo holds mosques and the Khan el-Khalili bazaar, and the city layers centuries of history into its busy streets.",
+      "imageAlt": "The Pyramids of Giza near Cairo"
+    },
+    "nairobi": {
+      "name": "Nairobi",
+      "country": "Kenya",
+      "description": "A capital with a savanna national park at its edge and the starting point for safaris.",
+      "longDescription": "Kenya's capital and gateway to safaris is one of the few capitals in the world with a national park within its limits: lions, giraffes and rhinos live against a backdrop of skyscrapers. The city also has elephant and giraffe sanctuaries, museums and a growing café and music scene.",
+      "imageAlt": "The Nairobi skyline"
+    },
+    "toronto": {
+      "name": "Toronto",
+      "country": "Canada",
+      "description": "The CN Tower, neighborhoods from around the world and the Lake Ontario islands in a multicultural metropolis.",
+      "longDescription": "Canada's largest city, on the shore of Lake Ontario, famous for the CN Tower and a population drawn from all over the world. Neighborhoods such as Kensington Market, Chinatown and the Distillery District show that diversity, and the Toronto Islands offer beaches and skyline views a short ferry ride away.",
+      "imageAlt": "The Toronto skyline"
+    },
+    "mexicocity": {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "description": "Museums, murals, markets and a UNESCO-recognized cuisine in a capital at 2,240 meters.",
+      "longDescription": "Mexico's capital, built on the ancient Aztec city of Tenochtitlan, brings together the Zócalo, the Palacio de Bellas Artes and the National Museum of Anthropology. Diego Rivera's murals, Frida Kahlo's Blue House in Coyoacán and markets such as La Merced show the strength of local culture, from art to the dinner table.",
+      "imageAlt": "Palacio de Bellas Artes in Mexico City"
+    },
+    "buenosaires": {
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "description": "Tango, grand bookshops, historic cafés and broad avenues in a capital with a European air.",
+      "longDescription": "Argentina's capital, where Avenida 9 de Julio, one of the widest avenues in the world, is marked by the Obelisco. Neighborhoods such as San Telmo, with its antiques market and milongas, and colorful La Boca keep tango alive, while historic cafés and bookshops such as El Ateneo Grand Splendid, set in a former theater, round out the itinerary.",
+      "imageAlt": "Avenida 9 de Julio and the Obelisco in Buenos Aires"
+    },
+    "santiago": {
+      "name": "Santiago",
+      "country": "Chile",
+      "description": "A capital ringed by the Andes, with nearby vineyards and a growing food scene.",
+      "longDescription": "Chile's capital sits in a valley surrounded by the Andes, whose snow-capped peaks frame the skyline on clear days. Santa Lucía and San Cristóbal hills offer views and trails inside the city, and wineries of the Maipo Valley are less than an hour from the center.",
+      "imageAlt": "The Santiago skyline, in Chile"
+    },
+    "cusco": {
+      "name": "Cusco",
+      "country": "Peru",
+      "description": "The former Inca capital, with stone streets, colonial squares and the gateway to Machu Picchu.",
+      "longDescription": "At about 3,400 meters in the Peruvian Andes, Cusco was the capital of the Inca Empire and blends Inca walls with colonial churches, such as the Church of the Society of Jesus on the Plaza de Armas. It is the starting point for the Sacred Valley and Machu Picchu, and its cuisine draws on Andean potatoes, corn and quinoa.",
+      "imageAlt": "Plaza de Armas in Cusco"
+    },
+    "prague": {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "description": "Bridges, towers and red roofs in one of Europe's best-preserved medieval capitals.",
+      "longDescription": "The capital of the Czech Republic, cut by the Vltava River, with Prague Castle crowning the hill and Charles Bridge linking the Old Town to Malá Strana. The UNESCO-listed historic center has the astronomical clock and traditional breweries, and goulash with knedlíky is a typical dish.",
+      "imageAlt": "Prague Castle and Charles Bridge"
+    },
+    "amsterdam": {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "description": "Seventeenth-century canals, narrow houses, art museums and a city built for bikes.",
+      "longDescription": "The capital of the Netherlands, where the UNESCO-listed seventeenth-century canal ring is lined with tall, narrow houses. The Rijksmuseum and the Van Gogh Museum hold works by Dutch masters, the bicycle is the main way to get around, and markets sell stroopwafels and herring.",
+      "imageAlt": "Canal houses in Amsterdam"
+    },
+    "vienna": {
+      "name": "Vienna",
+      "country": "Austria",
+      "description": "Imperial palaces, opera and traditional cafés in the capital of classical music.",
+      "longDescription": "Austria's capital and former seat of the Habsburg Empire, with palaces such as Schönbrunn and the Hofburg. The city where Mozart, Beethoven and Strauss lived and worked, it hosts the State Opera and concerts all year, and its traditional coffee houses, recognized by UNESCO as intangible heritage, serve Sachertorte and strudel.",
+      "imageAlt": "Schönbrunn Palace in Vienna"
+    },
+    "athens": {
+      "name": "Athens",
+      "country": "Greece",
+      "description": "The Parthenon atop the Acropolis, historic lanes and tavernas in one of the world's oldest cities.",
+      "longDescription": "Greece's capital and the cradle of democracy, with the Parthenon crowning the UNESCO-listed Acropolis. From the Acropolis Museum to the Plaka district, the city mixes antiquity and modern life, and tavernas serve souvlaki, feta salads and olives. The Aegean coast is less than an hour away.",
+      "imageAlt": "The Parthenon on the Acropolis of Athens"
+    },
+    "zurich": {
+      "name": "Zurich",
+      "country": "Switzerland",
+      "description": "A clear lake, the Limmat River, a medieval Old Town and the Alps on the horizon.",
+      "longDescription": "Switzerland's largest city, on Lake Zurich and cut by the Limmat River, has an Old Town of medieval lanes dominated by the towers of the Grossmünster. In summer you can swim in the river and the lake, and on clear days the Alps appear in the distance. Chocolate and fondue round out the experience.",
+      "imageAlt": "The Limmat River and the Grossmünster in Zurich"
+    },
+    "edinburgh": {
+      "name": "Edinburgh",
+      "country": "Scotland",
+      "description": "A castle on a volcanic rock, medieval lanes and festivals that fill the city every summer.",
+      "longDescription": "Scotland's capital, where Edinburgh Castle sits atop an ancient volcanic rock and the Royal Mile runs down to the Palace of Holyroodhouse. The UNESCO-listed Old and New Towns contrast with each other, and Arthur's Seat offers a hike with panoramic views. In August the Edinburgh Festival Fringe takes over the streets.",
+      "imageAlt": "Edinburgh's Old Town and Castle"
+    },
+    "sydney": {
+      "name": "Sydney",
+      "country": "Australia",
+      "description": "The Opera House, the Harbour Bridge, urban beaches and a harbor that defines the city.",
+      "longDescription": "Australia's largest city, built around one of the world's great natural harbors. The UNESCO-listed Opera House and the Harbour Bridge frame the bay, and a short ferry or train ride reaches beaches such as Bondi and Manly. The coastal walk from Bondi to Coogee is one of the most popular outings.",
+      "imageAlt": "The Sydney Opera House and Harbour Bridge"
+    },
+    "melbourne": {
+      "name": "Melbourne",
+      "country": "Australia",
+      "description": "Street cafés, laneway street art, sport and a cultural scene that never stops.",
+      "longDescription": "The capital of Victoria, known for its café culture and laneways covered in street art, such as Hosier Lane. Federation Square, museums and the Melbourne Cricket Ground sit near the Yarra River, and the city hosts the Australian Open tennis tournament and the Formula 1 Grand Prix.",
+      "imageAlt": "The Melbourne skyline and the Yarra River"
+    },
+    "auckland": {
+      "name": "Auckland",
+      "country": "New Zealand",
+      "description": "The City of Sails, with two harbors, dormant volcanoes and islands a short ferry ride away.",
+      "longDescription": "New Zealand's largest city, between the Waitematā and Manukau harbours and known as the City of Sails. Built on a volcanic field, it has cones such as Mount Eden overlooking the Sky Tower, and islands such as Waiheke, with vineyards and beaches, about 40 minutes away by ferry.",
+      "imageAlt": "The Auckland skyline with the Sky Tower"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The address you tried to open does not exist.",
+    "back": "Back to home"
+  },
+  "continents": {
+    "europe": "Europe",
+    "asia": "Asia",
+    "africa": "Africa",
+    "northAmerica": "North America",
+    "southAmerica": "South America",
+    "oceania": "Oceania"
+  },
+  "explore": {
+    "eyebrow": "Explore",
+    "title": "Explore destinations around the world",
+    "subtitle": "Search by name, country or description and filter by type of trip.",
+    "searchLabel": "Search destinations",
+    "searchPlaceholder": "Name, country or description",
+    "clearSearch": "Clear search",
+    "categoryLabel": "Filter by category",
+    "all": "All",
+    "results_one": "{{count}} destination found",
+    "results_other": "{{count}} destinations found",
+    "clearFilters": "Clear filters",
+    "emptyTitle": "No destinations found",
+    "emptyText": "Try another term or remove the filters to see the whole catalog.",
+    "continentLabel": "Continent",
+    "allContinents": "All continents"
+  },
+  "detail": {
+    "back": "Back",
+    "backToExplore": "Back to Explore",
+    "favoriteNote": "Favorites are saved in this browser.",
+    "about": "About the destination",
+    "location": "Location",
+    "country": "Country",
+    "continent": "Continent",
+    "coordinates": "Coordinates",
+    "categories": "Categories",
+    "gallery": "Gallery",
+    "galleryAlt": "{{name}}, photo {{index}}",
+    "photoCredits": "Photo credits",
+    "photo": "Photo {{index}}",
+    "related": "Related destinations",
+    "relatedSubtitle": "Cities and landscapes with similar themes.",
+    "notFoundTitle": "Destination not found",
+    "notFoundText": "We couldn't find a destination with the address “{{id}}”.",
+    "notFoundBack": "Explore destinations",
+    "mapAndWeather": "Map and weather",
+    "planTrip": "Plan a trip"
+  },
+  "map": {
+    "loading": "Loading map…",
+    "openInOsm": "Open in OpenStreetMap",
+    "destinationLabel": "Map of {{name}}",
+    "exploreLabel_one": "Map with {{count}} destination",
+    "exploreLabel_other": "Map with {{count}} destinations",
+    "viewDetails": "View details",
+    "viewLabel": "View mode",
+    "listView": "List",
+    "mapView": "Map",
+    "errorTitle": "The map could not be displayed",
+    "errorText": "Something went wrong while loading the map. The rest of the page is still available.",
+    "tilesError": "The base map could not be loaded. Check your connection; the markers are still visible."
+  },
+  "weather": {
+    "title": "Weather forecast",
+    "loading": "Loading forecast…",
+    "error": "The forecast could not be loaded right now. The rest of the page is still available.",
+    "retry": "Try again",
+    "source": "Weather data: Open-Meteo. Temperatures in °C, in the destination's time zone.",
+    "todayRange": "Today (high / low)",
+    "rainChance": "Chance of rain today",
+    "rainChanceShort": "chance of rain",
+    "nextDays": "Next days",
+    "max": "High",
+    "min": "low",
+    "conditions": {
+      "clear": "Clear sky",
+      "mostlyClear": "Mainly clear",
+      "partlyCloudy": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "freezingDrizzle": "Freezing drizzle",
+      "rain": "Rain",
+      "freezingRain": "Freezing rain",
+      "snow": "Snow",
+      "snowGrains": "Snow grains",
+      "showers": "Rain showers",
+      "snowShowers": "Snow showers",
+      "thunderstorm": "Thunderstorm",
+      "thunderstormHail": "Thunderstorm with hail",
+      "unknown": "Unidentified condition"
+    }
+  },
+  "carousel": {
+    "label": "Photos of {{name}}",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "goTo": "Go to photo {{index}}",
+    "slideOf": "{{index}} of {{total}}",
+    "pause": "Pause automatic slideshow",
+    "play": "Resume automatic slideshow"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "retry": "Try again"
+  },
+  "storage": {
+    "notice": "Your favorites and trips are saved only in this browser, on this device. They are not synced across devices and may be lost if you clear your browser data.",
+    "error": "The data could not be saved in this browser (local storage may be blocked). Changes only last until you close or refresh the page."
+  },
+  "favorites": {
+    "title": "Your favorite destinations",
+    "subtitle": "The places you want to remember, all in one spot.",
+    "count_one": "{{count}} favorite destination",
+    "count_other": "{{count}} favorite destinations",
+    "emptyTitle": "You don't have any favorites yet",
+    "emptyText": "Tap the heart on a destination to keep it here and find it later.",
+    "emptyAction": "Explore destinations",
+    "openDetails": "View details",
+    "remove": "Remove",
+    "add": "Favorite",
+    "saved": "In favorites",
+    "toggleLabel": "Favorite {{name}}",
+    "removeHint": "Click to remove from favorites",
+    "added": "{{name}} was added to favorites.",
+    "removed": "{{name}} was removed from favorites.",
+    "badge_one": "{{count}} favorite",
+    "badge_other": "{{count}} favorites"
+  },
+  "home": {
+    "savedEyebrow": "Your space",
+    "savedTitle": "What you've saved so far",
+    "favoritesTitle": "Favorites",
+    "tripsTitle": "Upcoming trips",
+    "viewAll": "View all"
+  },
+  "trips": {
+    "title": "Organize your trips",
+    "subtitle": "Keep destinations, dates and notes together. Atlas is an organizer: it doesn't make bookings or payments.",
+    "new": "New trip",
+    "newTitle": "New trip",
+    "editTitle": "Edit trip",
+    "create": "Create trip",
+    "saveChanges": "Save changes",
+    "emptyTitle": "No trips here yet",
+    "emptyText": "Create your first trip by choosing an Atlas destination and your departure and return dates.",
+    "emptyAction": "Create my first trip",
+    "count_one": "{{count}} saved trip",
+    "count_other": "{{count}} saved trips",
+    "sortedNote": "Sorted by departure date.",
+    "duration_one": "{{count}} day",
+    "duration_other": "{{count}} days",
+    "destinationUnavailable": "Destination no longer in the catalog",
+    "openDestination": "View destination",
+    "edit": "Edit",
+    "delete": "Delete",
+    "fields": {
+      "name": "Trip name",
+      "namePlaceholder": "E.g. Year-end holidays",
+      "destination": "Destination",
+      "destinationPlaceholder": "Choose a destination",
+      "startDate": "Departure date",
+      "endDate": "Return date",
+      "notes": "Notes",
+      "notesPlaceholder": "Itinerary, reminders, ideas…",
+      "optional": "optional"
+    },
+    "errors": {
+      "nameRequired": "Enter a name for the trip.",
+      "nameTooLong": "The name can have at most 80 characters.",
+      "destinationRequired": "Choose a destination.",
+      "destinationUnknown": "Choose a destination from the list.",
+      "startRequired": "Enter the departure date.",
+      "startInvalid": "The departure date is not valid.",
+      "endRequired": "Enter the return date.",
+      "endInvalid": "The return date is not valid.",
+      "endBeforeStart": "The return date cannot be before the departure date.",
+      "notesTooLong": "Notes can have at most 1000 characters."
+    },
+    "confirm": {
+      "title": "Delete this trip?",
+      "text": "The trip “{{name}}” will be deleted from this browser. This cannot be undone.",
+      "confirm": "Delete trip"
+    },
+    "toast": {
+      "created": "Trip “{{name}}” created.",
+      "updated": "Trip “{{name}}” updated.",
+      "deleted": "Trip “{{name}}” deleted."
+    }
+  },
+  "geo": {
+    "latNorth": "{{value}}° N",
+    "latSouth": "{{value}}° S",
+    "lngEast": "{{value}}° E",
+    "lngWest": "{{value}}° W",
+    "pair": "{{lat}}, {{lng}}"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "text": "An unexpected error occurred while displaying this page. Your favorites and trips are still saved.",
+    "reload": "Reload page",
+    "home": "Go to home"
+  },
+  "meta": {
+    "home": {
+      "title": "Atlas — Travel planning",
+      "description": "Discover destinations around the world, see maps and weather forecasts, save favorites and organize your trips."
+    },
+    "explore": {
+      "title": "Explore destinations — Atlas",
+      "description": "Search destinations by name, country or category and see the results as a list or on the map."
+    },
+    "favorites": {
+      "title": "Favorites — Atlas",
+      "description": "The destinations you saved, stored in this browser."
+    },
+    "trips": {
+      "title": "My trips — Atlas",
+      "description": "Create, edit and organize your trips. Everything is saved in this browser."
+    },
+    "notFound": {
+      "title": "Page not found — Atlas",
+      "description": "The address you tried to open does not exist."
+    },
+    "destinationTitle": "{{name}} — Atlas",
+    "destinationNotFound": {
+      "title": "Destination not found — Atlas",
+      "description": "This destination is not in the Atlas catalog."
+    }
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "app": {
+    "name": "Atlas",
+    "tagline": "Planeje viagens com elegância"
+  },
+  "nav": {
+    "home": "Início",
+    "explore": "Explorar",
+    "favorites": "Favoritos",
+    "trips": "Minhas viagens",
+    "label": "Navegação principal"
+  },
+  "a11y": {
+    "skipToContent": "Pular para o conteúdo",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Idioma"
+  },
+  "image": {
+    "unavailable": "Imagem indisponível"
+  },
+  "hero": {
+    "eyebrow": "Planejador de viagens",
+    "title": "Descubra o mundo, um destino de cada vez.",
+    "subtitle": "O Atlas ajuda você a explorar destinos, salvar favoritos e organizar as próximas viagens, com calma e clareza.",
+    "searchLabel": "Pesquisar destinos",
+    "searchPlaceholder": "Para onde você quer ir?",
+    "searchButton": "Buscar",
+    "popular": "Populares"
+  },
+  "featured": {
+    "eyebrow": "Destinos em destaque",
+    "title": "Para começar a imaginar a próxima viagem",
+    "subtitle": "Uma seleção inicial de cidades e paisagens pelo mundo.",
+    "viewAll": "Ver todos os destinos",
+    "discover": "Descobrir"
+  },
+  "categories": {
+    "eyebrow": "Categorias",
+    "title": "Escolha o tipo de viagem",
+    "subtitle": "Comece pelo que mais combina com o seu momento.",
+    "count_one": "{{count}} destino",
+    "count_other": "{{count}} destinos",
+    "nature": {
+      "name": "Natureza",
+      "description": "Paisagens, trilhas e lugares para desacelerar."
+    },
+    "culture": {
+      "name": "Cultura",
+      "description": "Cidades históricas, museus e tradições vivas."
+    },
+    "beaches": {
+      "name": "Praias",
+      "description": "Mar, areia e dias sem pressa."
+    },
+    "gastronomy": {
+      "name": "Gastronomia",
+      "description": "Sabores locais, mercados e mesas memoráveis."
+    }
+  },
+  "cta": {
+    "eyebrow": "Explorar",
+    "title": "O próximo destino pode estar a uma busca de distância.",
+    "text": "Navegue pelos destinos do Atlas e encontre inspiração para a sua próxima viagem.",
+    "button": "Explorar destinos"
+  },
+  "footer": {
+    "about": "O Atlas é um planejador de viagens criado como projeto de portfólio Front-End. Esta versão funciona sem backend.",
+    "navigation": "Navegação",
+    "project": "Projeto",
+    "projectText": "Desenvolvido com React, TypeScript, Vite e Tailwind CSS.",
+    "photos": "Créditos das fotografias (Wikimedia Commons)",
+    "photoHero": "Capa",
+    "rights": "© {{year}} Atlas. Projeto de portfólio."
+  },
+  "destinations": {
+    "kyoto": {
+      "name": "Kyoto",
+      "country": "Japão",
+      "description": "Santuários, templos e jardins em uma cidade que preserva séculos de tradição japonesa.",
+      "imageAlt": "Corredor de portões torii vermelhos no santuário Fushimi Inari, em Kyoto",
+      "longDescription": "Capital imperial do Japão por mais de mil anos, Kyoto reúne muitos templos e santuários, jardins tradicionais e bairros históricos como Gion. O caminho de portões torii do santuário Fushimi Inari é um dos cenários mais conhecidos da cidade."
+    },
+    "paris": {
+      "name": "Paris",
+      "country": "França",
+      "description": "Museus, cafés e avenidas elegantes ao longo do Sena, entre arte, moda e gastronomia.",
+      "imageAlt": "Torre Eiffel, em Paris",
+      "longDescription": "Capital da França, Paris combina museus como o Louvre, a Torre Eiffel, o rio Sena e bairros com cafés e livrarias. É um destino clássico para quem gosta de arte, arquitetura e boa mesa."
+    },
+    "lisbon": {
+      "name": "Lisboa",
+      "country": "Portugal",
+      "description": "Colinas, miradouros e bondes antigos, com vista para o Tejo e uma cena gastronômica vibrante.",
+      "imageAlt": "Vista do miradouro das Portas do Sol, em Lisboa",
+      "longDescription": "Capital de Portugal, Lisboa se estende por colinas à beira do rio Tejo. Bairros como Alfama e Bairro Alto, os miradouros e os bondes amarelos dão à cidade um ritmo próprio, com cozinha tradicional portuguesa."
+    },
+    "bali": {
+      "name": "Bali",
+      "country": "Indonésia",
+      "description": "Arrozais em terraços, templos e praias em uma ilha tropical de natureza exuberante.",
+      "imageAlt": "Arrozais em terraços em Bali",
+      "longDescription": "Ilha da Indonésia conhecida por seus terraços de arroz, templos hindus e praias. O interior, em torno de Ubud, concentra arte e artesanato, enquanto o litoral reúne praias para diferentes estilos de viagem."
+    },
+    "newyork": {
+      "name": "Nova York",
+      "country": "Estados Unidos",
+      "description": "Arranha-céus, parques, museus e uma gastronomia que reúne o mundo em uma única cidade.",
+      "imageAlt": "Horizonte de Midtown Manhattan à noite, em Nova York",
+      "longDescription": "A cidade mais populosa dos Estados Unidos reúne Manhattan, o Central Park, museus como o Metropolitan e uma enorme diversidade de cozinhas. Cada bairro tem personalidade própria, do Brooklyn ao Queens."
+    },
+    "rome": {
+      "longDescription": "Capital da Itália, Roma preserva ruínas da Antiguidade, como o Coliseu e o Fórum Romano, ao lado de praças barrocas e da proximidade do Vaticano. A cozinha romana, simples e saborosa, faz parte da experiência.",
+      "name": "Roma",
+      "country": "Itália",
+      "description": "Ruínas antigas, praças barrocas e uma cozinha que faz da mesa parte da história.",
+      "imageAlt": "Coliseu, em Roma"
+    },
+    "capetown": {
+      "longDescription": "Cidade sul-africana entre a Table Mountain e o oceano, com praias, vinhedos nos arredores e a Península do Cabo. Une natureza marcante, história e uma cena gastronômica diversa.",
+      "name": "Cidade do Cabo",
+      "country": "África do Sul",
+      "description": "Entre a Table Mountain e o oceano, uma cidade de paisagens marcantes e boa mesa.",
+      "imageAlt": "Table Mountain vista de Bloubergstrand, na Cidade do Cabo"
+    },
+    "rio": {
+      "longDescription": "Cidade brasileira entre montanhas e mar, com praias como Copacabana e Ipanema, o Pão de Açúcar e o Cristo Redentor no Corcovado. Natureza e vida urbana se encontram em poucos quilômetros.",
+      "name": "Rio de Janeiro",
+      "country": "Brasil",
+      "description": "Montanhas, praias e a energia carioca em uma das paisagens urbanas mais icônicas do mundo.",
+      "imageAlt": "Pão de Açúcar visto do Cristo Redentor, no Rio de Janeiro"
+    },
+    "vancouver": {
+      "longDescription": "Cidade canadense entre o oceano Pacífico e as montanhas, com o Stanley Park, a orla e acesso a trilhas e esqui nos arredores. Combina vida urbana e natureza.",
+      "name": "Vancouver",
+      "country": "Canadá",
+      "description": "Oceano, montanhas e parques urbanos a poucos minutos uns dos outros.",
+      "imageAlt": "Vista de Vancouver, no Canadá"
+    },
+    "istanbul": {
+      "longDescription": "Cidade que se estende por dois continentes, Europa e Ásia, separados pelo estreito do Bósforo. Monumentos como a Hagia Sophia, bazares e a cozinha turca refletem séculos de história.",
+      "name": "Istambul",
+      "country": "Turquia",
+      "description": "Uma cidade entre dois continentes, com monumentos milenares, bazares e sabores turcos.",
+      "imageAlt": "Hagia Sophia, em Istambul"
+    },
+    "seoul": {
+      "name": "Seul",
+      "country": "Coreia do Sul",
+      "description": "Palácios da dinastia Joseon, cafés, design e uma gastronomia vibrante entre montanhas e o rio Han.",
+      "longDescription": "Capital sul-coreana onde palácios da dinastia Joseon, como o Gyeongbokgung, convivem com bairros de design, cafés e mercados de rua. O rio Han e as montanhas ao redor oferecem trilhas a poucos minutos do centro, e a mesa vai do churrasco coreano ao tteokbokki.",
+      "imageAlt": "Palácio Gyeongbokgung, em Seul"
+    },
+    "bangkok": {
+      "name": "Bangkok",
+      "country": "Tailândia",
+      "description": "Templos dourados, canais e uma comida de rua celebrada no mundo todo, na capital que nunca para.",
+      "longDescription": "Capital da Tailândia às margens do rio Chao Phraya, onde templos como o Wat Arun e o Wat Pho dividem o horizonte com arranha-céus. Barcos cruzam os canais, os mercados funcionam do amanhecer à madrugada e a comida de rua é parte central da experiência.",
+      "imageAlt": "Wat Arun, o Templo da Aurora, em Bangkok"
+    },
+    "singapore": {
+      "name": "Singapura",
+      "country": "Singapura",
+      "description": "Cidade-Estado de arranha-céus, jardins futuristas e centros de comida que reúnem várias culturas.",
+      "longDescription": "Cidade-Estado no extremo sul da Península Malaia, onde a baía de Marina Bay, os Gardens by the Bay e bairros como Chinatown e Little India ficam a poucos quilômetros uns dos outros. Os hawker centres, reconhecidos pela UNESCO como patrimônio imaterial, servem pratos chineses, malaios e indianos a preços acessíveis.",
+      "imageAlt": "Marina Bay e o horizonte de Singapura ao entardecer"
+    },
+    "mumbai": {
+      "name": "Mumbai",
+      "country": "Índia",
+      "description": "Arquitetura colonial, cinema de Bollywood e o Mar Arábico em uma metrópole cheia de contrastes.",
+      "longDescription": "Uma das maiores cidades da Índia, à beira do Mar Arábico, onde o Portal da Índia e a estação Chhatrapati Shivaji Terminus, de estilo gótico vitoriano e patrimônio da UNESCO, contam sua história colonial. A orla de Marine Drive, os mercados e a comida de rua, como o vada pav, completam o retrato de uma cidade em constante movimento.",
+      "imageAlt": "Portal da Índia, em Mumbai"
+    },
+    "hanoi": {
+      "name": "Hanói",
+      "country": "Vietnã",
+      "description": "Lago, ruelas do Bairro Antigo e cafés em uma capital que mistura tradição, herança francesa e sabores marcantes.",
+      "longDescription": "Capital do Vietnã, organizada em torno do lago Hoan Kiem e do Bairro Antigo, cujas ruas estreitas ainda levam nomes de antigos ofícios. Avenidas e edifícios de influência francesa convivem com templos, e a mesa oferece phở, bún chả e o café com ovo.",
+      "imageAlt": "Lago Hoan Kiem, em Hanói"
+    },
+    "osaka": {
+      "name": "Osaka",
+      "country": "Japão",
+      "description": "O castelo, o bairro de Dotonbori e a fama de capital da gastronomia japonesa.",
+      "longDescription": "Uma das maiores cidades do Japão, conhecida há séculos como a cozinha da nação. O Castelo de Osaka lembra seu passado de poder, enquanto Dotonbori, de letreiros luminosos, reúne barracas de takoyaki e okonomiyaki. Kyoto e Nara ficam a menos de uma hora de trem.",
+      "imageAlt": "Castelo de Osaka"
+    },
+    "marrakech": {
+      "name": "Marrakech",
+      "country": "Marrocos",
+      "description": "Medina de muros ocres, souks perfumados e a praça Jemaa el-Fna, aos pés do Atlas.",
+      "longDescription": "Cidade imperial no sopé das montanhas do Atlas, com uma medina murada, patrimônio da UNESCO, de becos, souks e jardins escondidos. Ao entardecer, a praça Jemaa el-Fna se enche de músicos, contadores de histórias e barracas de comida, enquanto o minarete da Koutoubia domina o horizonte.",
+      "imageAlt": "Praça Jemaa el-Fna, em Marrakech"
+    },
+    "cairo": {
+      "name": "Cairo",
+      "country": "Egito",
+      "description": "Pirâmides de Gizé, museus faraônicos e um labirinto de bazares às margens do Nilo.",
+      "longDescription": "Capital do Egito às margens do Nilo, a poucos quilômetros das Pirâmides de Gizé, a única das Sete Maravilhas do mundo antigo ainda de pé. O Cairo Islâmico guarda mesquitas e o bazar Khan el-Khalili, e a cidade acumula séculos de história em suas ruas movimentadas.",
+      "imageAlt": "Pirâmides de Gizé, perto do Cairo"
+    },
+    "nairobi": {
+      "name": "Nairóbi",
+      "country": "Quênia",
+      "description": "Uma capital com um parque nacional de savana nos limites da cidade e ponto de partida para safáris.",
+      "longDescription": "Capital do Quênia e porta de entrada para safáris, é uma das poucas capitais do mundo com um parque nacional dentro de seus limites: leões, girafas e rinocerontes vivem diante do horizonte de arranha-céus. A cidade também tem santuários de elefantes e girafas, museus e uma cena de cafés e música em expansão.",
+      "imageAlt": "Horizonte de Nairóbi"
+    },
+    "toronto": {
+      "name": "Toronto",
+      "country": "Canadá",
+      "description": "A Torre CN, bairros de todo o mundo e as ilhas do lago Ontário em uma metrópole multicultural.",
+      "longDescription": "Maior cidade do Canadá, na margem do lago Ontário, famosa pela Torre CN e por uma população que reúne gente de todo o mundo. Bairros como Kensington Market, Chinatown e o Distillery District mostram essa diversidade, e as Toronto Islands oferecem praias e vista do horizonte a poucos minutos de balsa.",
+      "imageAlt": "Horizonte de Toronto"
+    },
+    "mexicocity": {
+      "name": "Cidade do México",
+      "country": "México",
+      "description": "Museus, murais, mercados e uma cozinha reconhecida pela UNESCO em uma capital a 2.240 metros de altitude.",
+      "longDescription": "Capital do México, construída sobre a antiga Tenochtitlán, que reúne o Zócalo, o Palácio de Belas Artes e o Museu Nacional de Antropologia. Os murais de Diego Rivera, a Casa Azul de Frida Kahlo em Coyoacán e mercados como o de La Merced mostram a força da cultura local, da arte à mesa.",
+      "imageAlt": "Palácio de Belas Artes, na Cidade do México"
+    },
+    "buenosaires": {
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "description": "Tango, livrarias monumentais, cafés históricos e avenidas largas em uma capital de ares europeus.",
+      "longDescription": "Capital da Argentina, onde a Avenida 9 de Julho, uma das mais largas do mundo, é marcada pelo Obelisco. Bairros como San Telmo, com seu mercado de antiguidades e suas milongas, e a colorida La Boca mantêm o tango vivo, enquanto cafés históricos e livrarias como a El Ateneo Grand Splendid, instalada em um antigo teatro, completam o roteiro.",
+      "imageAlt": "Avenida 9 de Julho e o Obelisco, em Buenos Aires"
+    },
+    "santiago": {
+      "name": "Santiago",
+      "country": "Chile",
+      "description": "Uma capital cercada pela cordilheira dos Andes, com vinícolas próximas e uma cena gastronômica em crescimento.",
+      "longDescription": "Capital do Chile, em um vale cercado pelos Andes, cujos picos nevados emolduram o horizonte em dias claros. Os morros Santa Lucía e San Cristóbal oferecem vistas e trilhas dentro da cidade, e as vinícolas do Vale do Maipo ficam a menos de uma hora do centro.",
+      "imageAlt": "Horizonte de Santiago, no Chile"
+    },
+    "cusco": {
+      "name": "Cusco",
+      "country": "Peru",
+      "description": "A antiga capital do Império Inca, com ruas de pedra, praças coloniais e a porta de entrada para Machu Picchu.",
+      "longDescription": "A cerca de 3.400 metros de altitude nos Andes peruanos, Cusco foi a capital do Império Inca e une muros incas e igrejas coloniais, como a da Companhia de Jesus na Plaza de Armas. É o ponto de partida para o Vale Sagrado e para Machu Picchu, e sua culinária se apoia na batata, no milho e na quinoa andinos.",
+      "imageAlt": "Plaza de Armas, em Cusco"
+    },
+    "prague": {
+      "name": "Praga",
+      "country": "República Tcheca",
+      "description": "Pontes, torres e telhados vermelhos em uma das capitais medievais mais bem preservadas da Europa.",
+      "longDescription": "Capital da República Tcheca, cortada pelo rio Vltava, com o Castelo de Praga no alto da colina e a Ponte Carlos ligando a Cidade Velha ao bairro de Malá Strana. O centro histórico, patrimônio da UNESCO, tem o relógio astronômico e cervejarias tradicionais, e o goulash com knedlíky é um prato típico.",
+      "imageAlt": "Castelo de Praga e a Ponte Carlos"
+    },
+    "amsterdam": {
+      "name": "Amsterdã",
+      "country": "Países Baixos",
+      "description": "Canais do século XVII, casas estreitas, museus de arte e uma cidade pensada para bicicletas.",
+      "longDescription": "Capital dos Países Baixos, onde o anel de canais do século XVII, patrimônio da UNESCO, é ladeado por casas altas e estreitas. O Rijksmuseum e o Museu Van Gogh reúnem obras de mestres holandeses, a bicicleta é o principal meio de transporte e os mercados vendem stroopwafels e arenque.",
+      "imageAlt": "Casas à beira dos canais de Amsterdã"
+    },
+    "vienna": {
+      "name": "Viena",
+      "country": "Áustria",
+      "description": "Palácios imperiais, ópera e cafés tradicionais na capital da música clássica.",
+      "longDescription": "Capital da Áustria e antiga sede do Império Habsburgo, com palácios como o Schönbrunn e a Hofburg. Cidade onde viveram e trabalharam Mozart, Beethoven e Strauss, abriga a Ópera Estatal e concertos o ano inteiro, e seus cafés tradicionais, reconhecidos pela UNESCO como patrimônio imaterial, servem Sachertorte e strudel.",
+      "imageAlt": "Palácio de Schönbrunn, em Viena"
+    },
+    "athens": {
+      "name": "Atenas",
+      "country": "Grécia",
+      "description": "O Partenon no alto da Acrópole, ruas históricas e tavernas em uma das cidades mais antigas do mundo.",
+      "longDescription": "Capital da Grécia e berço da democracia, com o Partenon dominando a Acrópole, patrimônio da UNESCO. Do Museu da Acrópole ao bairro de Plaka, a cidade mistura antiguidade e vida moderna, e as tavernas servem souvlaki, saladas com feta e azeitonas. A costa do Egeu fica a menos de uma hora.",
+      "imageAlt": "O Partenon na Acrópole de Atenas"
+    },
+    "zurich": {
+      "name": "Zurique",
+      "country": "Suíça",
+      "description": "Um lago cristalino, o rio Limmat, a Cidade Velha medieval e os Alpes no horizonte.",
+      "longDescription": "A maior cidade da Suíça, às margens do lago de Zurique e cortada pelo rio Limmat, tem uma Cidade Velha de ruelas medievais dominada pelas torres da Grossmünster. No verão é possível nadar no rio e no lago e, em dias claros, os Alpes aparecem ao longe. Chocolate e fondue completam a experiência.",
+      "imageAlt": "Rio Limmat e a Grossmünster, em Zurique"
+    },
+    "edinburgh": {
+      "name": "Edimburgo",
+      "country": "Escócia",
+      "description": "Um castelo sobre uma rocha vulcânica, ruelas medievais e festivais que ocupam a cidade todo verão.",
+      "longDescription": "Capital da Escócia, onde o Castelo de Edimburgo ocupa o topo de uma antiga rocha vulcânica e a Royal Mile desce até o Palácio de Holyroodhouse. A Cidade Velha e a Cidade Nova, patrimônio da UNESCO, contrastam entre si, e Arthur's Seat oferece uma trilha com vista panorâmica. Em agosto, o Edinburgh Festival Fringe toma as ruas.",
+      "imageAlt": "Cidade Velha e Castelo de Edimburgo"
+    },
+    "sydney": {
+      "name": "Sydney",
+      "country": "Austrália",
+      "description": "A Ópera de Sydney, a Harbour Bridge, praias urbanas e uma baía que define a cidade.",
+      "longDescription": "Maior cidade da Austrália, construída em torno de um dos grandes portos naturais do mundo. A Ópera de Sydney, patrimônio da UNESCO, e a Harbour Bridge emolduram a baía, e em poucos minutos de balsa ou trem chega-se a praias como Bondi e Manly. A trilha costeira de Bondi a Coogee é um dos passeios mais populares.",
+      "imageAlt": "Ópera de Sydney e a Harbour Bridge"
+    },
+    "melbourne": {
+      "name": "Melbourne",
+      "country": "Austrália",
+      "description": "Cafés de rua, arte urbana em becos, esportes e uma cena cultural que não para.",
+      "longDescription": "Capital do estado de Victoria, conhecida pela cultura de café e pelas ruelas (laneways) cobertas de arte urbana, como a Hosier Lane. Perto do rio Yarra ficam a Federation Square, museus e o Melbourne Cricket Ground, e a cidade recebe o Aberto da Austrália de tênis e o Grande Prêmio de Fórmula 1.",
+      "imageAlt": "Horizonte de Melbourne e o rio Yarra"
+    },
+    "auckland": {
+      "name": "Auckland",
+      "country": "Nova Zelândia",
+      "description": "A Cidade das Velas, com dois portos, vulcões adormecidos e ilhas a poucos minutos de balsa.",
+      "longDescription": "Maior cidade da Nova Zelândia, entre os portos de Waitematā e Manukau, conhecida como a Cidade das Velas. Construída sobre um campo vulcânico, tem cones como o Monte Eden, com vista para a Sky Tower, e ilhas como Waiheke, com vinhedos e praias, a cerca de 40 minutos de balsa.",
+      "imageAlt": "Horizonte de Auckland com a Sky Tower"
+    }
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O endereço que você tentou acessar não existe.",
+    "back": "Voltar ao início"
+  },
+  "continents": {
+    "europe": "Europa",
+    "asia": "Ásia",
+    "africa": "África",
+    "northAmerica": "América do Norte",
+    "southAmerica": "América do Sul",
+    "oceania": "Oceania"
+  },
+  "explore": {
+    "eyebrow": "Explorar",
+    "title": "Explore destinos pelo mundo",
+    "subtitle": "Pesquise por nome, país ou descrição e filtre por tipo de viagem.",
+    "searchLabel": "Pesquisar destinos",
+    "searchPlaceholder": "Nome, país ou descrição",
+    "clearSearch": "Limpar pesquisa",
+    "categoryLabel": "Filtrar por categoria",
+    "all": "Todas",
+    "results_one": "{{count}} destino encontrado",
+    "results_other": "{{count}} destinos encontrados",
+    "clearFilters": "Limpar filtros",
+    "emptyTitle": "Nenhum destino encontrado",
+    "emptyText": "Tente outro termo ou remova os filtros para ver todo o catálogo.",
+    "continentLabel": "Continente",
+    "allContinents": "Todos os continentes"
+  },
+  "detail": {
+    "back": "Voltar",
+    "backToExplore": "Voltar para Explorar",
+    "favoriteNote": "Os favoritos ficam salvos neste navegador.",
+    "about": "Sobre o destino",
+    "location": "Localização",
+    "country": "País",
+    "continent": "Continente",
+    "coordinates": "Coordenadas",
+    "categories": "Categorias",
+    "gallery": "Galeria",
+    "galleryAlt": "{{name}}, foto {{index}}",
+    "photoCredits": "Créditos das fotografias",
+    "photo": "Foto {{index}}",
+    "related": "Destinos relacionados",
+    "relatedSubtitle": "Cidades e paisagens com temas parecidos.",
+    "notFoundTitle": "Destino não encontrado",
+    "notFoundText": "Não encontramos nenhum destino com o endereço “{{id}}”.",
+    "notFoundBack": "Explorar destinos",
+    "mapAndWeather": "Mapa e clima",
+    "planTrip": "Planejar uma viagem"
+  },
+  "map": {
+    "loading": "Carregando o mapa…",
+    "openInOsm": "Abrir no OpenStreetMap",
+    "destinationLabel": "Mapa de {{name}}",
+    "exploreLabel_one": "Mapa com {{count}} destino",
+    "exploreLabel_other": "Mapa com {{count}} destinos",
+    "viewDetails": "Ver detalhes",
+    "viewLabel": "Modo de visualização",
+    "listView": "Lista",
+    "mapView": "Mapa",
+    "errorTitle": "Não foi possível exibir o mapa",
+    "errorText": "Ocorreu um problema ao carregar o mapa. O restante da página continua disponível.",
+    "tilesError": "Não foi possível carregar o mapa de fundo. Verifique sua conexão; os marcadores continuam visíveis."
+  },
+  "weather": {
+    "title": "Previsão do tempo",
+    "loading": "Consultando a previsão…",
+    "error": "Não foi possível carregar a previsão agora. O restante da página continua disponível.",
+    "retry": "Tentar novamente",
+    "source": "Dados meteorológicos: Open-Meteo. Temperaturas em °C, no fuso do destino.",
+    "todayRange": "Hoje (máx. / mín.)",
+    "rainChance": "Chance de chuva hoje",
+    "rainChanceShort": "de chance de chuva",
+    "nextDays": "Próximos dias",
+    "max": "Máxima",
+    "min": "mínima",
+    "conditions": {
+      "clear": "Céu limpo",
+      "mostlyClear": "Predominantemente limpo",
+      "partlyCloudy": "Parcialmente nublado",
+      "overcast": "Nublado",
+      "fog": "Neblina",
+      "drizzle": "Garoa",
+      "freezingDrizzle": "Garoa congelante",
+      "rain": "Chuva",
+      "freezingRain": "Chuva congelante",
+      "snow": "Neve",
+      "snowGrains": "Grãos de neve",
+      "showers": "Pancadas de chuva",
+      "snowShowers": "Pancadas de neve",
+      "thunderstorm": "Trovoada",
+      "thunderstormHail": "Trovoada com granizo",
+      "unknown": "Condição não identificada"
+    }
+  },
+  "carousel": {
+    "label": "Fotos de {{name}}",
+    "previous": "Foto anterior",
+    "next": "Próxima foto",
+    "goTo": "Ir para a foto {{index}}",
+    "slideOf": "{{index}} de {{total}}",
+    "pause": "Pausar a troca automática",
+    "play": "Retomar a troca automática"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "retry": "Tentar novamente"
+  },
+  "storage": {
+    "notice": "Seus favoritos e viagens ficam salvos apenas neste navegador, neste dispositivo. Eles não são sincronizados entre dispositivos e podem ser perdidos se você limpar os dados do navegador.",
+    "error": "Não foi possível salvar os dados neste navegador (o armazenamento local pode estar bloqueado). As alterações valem só até você fechar ou atualizar a página."
+  },
+  "favorites": {
+    "title": "Seus destinos favoritos",
+    "subtitle": "Os lugares que você quer lembrar, reunidos em um só lugar.",
+    "count_one": "{{count}} destino favorito",
+    "count_other": "{{count}} destinos favoritos",
+    "emptyTitle": "Você ainda não tem favoritos",
+    "emptyText": "Toque no coração de um destino para guardá-lo aqui e encontrá-lo depois.",
+    "emptyAction": "Explorar destinos",
+    "openDetails": "Ver detalhes",
+    "remove": "Remover",
+    "add": "Favoritar",
+    "saved": "Nos favoritos",
+    "toggleLabel": "Favoritar {{name}}",
+    "removeHint": "Clique para remover dos favoritos",
+    "added": "{{name}} foi adicionado aos favoritos.",
+    "removed": "{{name}} foi removido dos favoritos.",
+    "badge_one": "{{count}} favorito",
+    "badge_other": "{{count}} favoritos"
+  },
+  "home": {
+    "savedEyebrow": "Seu espaço",
+    "savedTitle": "O que você já guardou",
+    "favoritesTitle": "Favoritos",
+    "tripsTitle": "Próximas viagens",
+    "viewAll": "Ver tudo"
+  },
+  "trips": {
+    "title": "Organize suas viagens",
+    "subtitle": "Registre destinos, datas e anotações. O Atlas é um organizador: não faz reservas nem pagamentos.",
+    "new": "Nova viagem",
+    "newTitle": "Nova viagem",
+    "editTitle": "Editar viagem",
+    "create": "Criar viagem",
+    "saveChanges": "Salvar alterações",
+    "emptyTitle": "Nenhuma viagem por aqui ainda",
+    "emptyText": "Crie sua primeira viagem escolhendo um destino do Atlas e as datas de ida e volta.",
+    "emptyAction": "Criar minha primeira viagem",
+    "count_one": "{{count}} viagem salva",
+    "count_other": "{{count}} viagens salvas",
+    "sortedNote": "Ordenadas pela data de ida.",
+    "duration_one": "{{count}} dia",
+    "duration_other": "{{count}} dias",
+    "destinationUnavailable": "Destino indisponível no catálogo",
+    "openDestination": "Ver destino",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "fields": {
+      "name": "Nome da viagem",
+      "namePlaceholder": "Ex.: Férias de fim de ano",
+      "destination": "Destino",
+      "destinationPlaceholder": "Escolha um destino",
+      "startDate": "Data de ida",
+      "endDate": "Data de retorno",
+      "notes": "Observações",
+      "notesPlaceholder": "Roteiro, lembretes, ideias…",
+      "optional": "opcional"
+    },
+    "errors": {
+      "nameRequired": "Informe o nome da viagem.",
+      "nameTooLong": "O nome pode ter no máximo 80 caracteres.",
+      "destinationRequired": "Escolha um destino.",
+      "destinationUnknown": "Escolha um destino da lista.",
+      "startRequired": "Informe a data de ida.",
+      "startInvalid": "A data de ida não é válida.",
+      "endRequired": "Informe a data de retorno.",
+      "endInvalid": "A data de retorno não é válida.",
+      "endBeforeStart": "A data de retorno não pode ser anterior à data de ida.",
+      "notesTooLong": "As observações podem ter no máximo 1000 caracteres."
+    },
+    "confirm": {
+      "title": "Excluir esta viagem?",
+      "text": "A viagem “{{name}}” será excluída deste navegador. Essa ação não pode ser desfeita.",
+      "confirm": "Excluir viagem"
+    },
+    "toast": {
+      "created": "Viagem “{{name}}” criada.",
+      "updated": "Viagem “{{name}}” atualizada.",
+      "deleted": "Viagem “{{name}}” excluída."
+    }
+  },
+  "geo": {
+    "latNorth": "{{value}}° N",
+    "latSouth": "{{value}}° S",
+    "lngEast": "{{value}}° L",
+    "lngWest": "{{value}}° O",
+    "pair": "{{lat}}, {{lng}}"
+  },
+  "errors": {
+    "title": "Algo deu errado",
+    "text": "Ocorreu um erro inesperado ao exibir esta página. Seus favoritos e viagens continuam salvos.",
+    "reload": "Recarregar a página",
+    "home": "Ir para o início"
+  },
+  "meta": {
+    "home": {
+      "title": "Atlas — Planejamento de viagens",
+      "description": "Descubra destinos pelo mundo, veja mapa e previsão do tempo, salve favoritos e organize suas viagens."
+    },
+    "explore": {
+      "title": "Explorar destinos — Atlas",
+      "description": "Pesquise destinos por nome, país ou categoria e veja os resultados em lista ou no mapa."
+    },
+    "favorites": {
+      "title": "Favoritos — Atlas",
+      "description": "Os destinos que você guardou, salvos neste navegador."
+    },
+    "trips": {
+      "title": "Minhas viagens — Atlas",
+      "description": "Crie, edite e organize suas viagens. Tudo fica salvo neste navegador."
+    },
+    "notFound": {
+      "title": "Página não encontrada — Atlas",
+      "description": "O endereço que você tentou acessar não existe."
+    },
+    "destinationTitle": "{{name}} — Atlas",
+    "destinationNotFound": {
+      "title": "Destino não encontrado — Atlas",
+      "description": "Este destino não existe no catálogo do Atlas."
+    }
+  }
+}

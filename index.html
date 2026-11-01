@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas — Planejamento de viagens</title>
+    <meta
+      name="description"
+      content="Atlas: descubra destinos pelo mundo, veja mapa e previsão do tempo, salve favoritos e organize suas viagens."
+    />
+    <meta name="theme-color" content="#173F35" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph básico (as páginas atualizam título e descrição em tempo de execução) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Atlas" />
+    <meta property="og:title" content="Atlas — Planejamento de viagens" />
+    <meta
+      property="og:description"
+      content="Descubra destinos pelo mundo, veja mapa e previsão do tempo, salve favoritos e organize suas viagens."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Fontes: Inter e Playfair Display, mais Noto JP para o japonês (o Google Fonts
+         entrega só os trechos de caracteres usados). Se falharem, valem as fontes do sistema. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <noscript>Atlas precisa de JavaScript para funcionar.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
